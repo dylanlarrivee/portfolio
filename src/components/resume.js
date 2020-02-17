@@ -50,7 +50,8 @@ class Resume extends Component {
             <p>www.</p>
             <h1>&nbsp;</h1>
             <h1>&nbsp;</h1>
-            <h1>&nbsp;</h1>
+            <h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
             <h2>&nbsp;</h2>
 
           </Cell>
