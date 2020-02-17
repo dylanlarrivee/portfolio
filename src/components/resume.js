@@ -48,12 +48,6 @@ class Resume extends Component {
             <p>dylanlarrivee@gmail.com</p>
             <h5>Web</h5>
             <p>www.</p>
-            <h1>&nbsp;</h1>
-            <h1>&nbsp;</h1>
-            <h2>&nbsp;</h2>
-            <h2>&nbsp;</h2>
-            <h2>&nbsp;</h2>
-            <h2>&nbsp;</h2>
 
 
           </Cell>
