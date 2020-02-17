@@ -7,7 +7,7 @@ import Experience from "./experience";
 class Resume extends Component {
   render() {
     return (
-      <div style={{height: '900px'}}>
+      <div style={{height: '100vh', position: 'relative'}}>
         <Grid>
           <Cell className="resume-left-col" col={4}>
             <div style={{ textAlign: "center" }}>
