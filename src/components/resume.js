@@ -48,6 +48,10 @@ class Resume extends Component {
             <p>dylanlarrivee@gmail.com</p>
             <h5>Web</h5>
             <p>www.</p>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+
           </Cell>
           <Cell className="resume-right-col" col={8}>
           <h2>Experience</h2>
