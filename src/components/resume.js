@@ -7,9 +7,10 @@ import Experience from "./experience";
 class Resume extends Component {
   render() {
     return (
-      <div style={{height: '100vh', position: 'relative'}}>
+      <div>
         <Grid>
           <Cell className="resume-left-col" col={4}>
+          <div style={{height: '900px'}}>
             <div style={{ textAlign: "center" }}>
               <img src={logo} />
             </div>
@@ -49,9 +50,10 @@ class Resume extends Component {
             <h5>Web</h5>
             <p>www.</p>
 
-
+              </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
+          <div style={{height: '900px'}}>
           <h2>Experience</h2>
             <Experience 
               startYear={'February 2015'}
@@ -105,7 +107,7 @@ class Resume extends Component {
                 padding: "0px 10px 0px"
               }}
             />
-
+</div>
           </Cell>
         </Grid>
       </div>

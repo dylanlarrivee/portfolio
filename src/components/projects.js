@@ -40,7 +40,9 @@ class Projects extends Component {
                   <p>Responsys API Program Stopper </p>
                   Web app that allows users to stop a running program in their
                   Oracle Responsys account without the need to log in to the
-                  platform. Built using Node.js, PostgreSQl, JavaScript and
+                  platform. 
+                  <p>Technologies used:</p>
+                  Node.js, PostgreSQl, JavaScript and
                   utilizes the Responsys API functionality.
                 </div>
               </CardText>
