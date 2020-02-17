@@ -51,7 +51,7 @@ class Resume extends Component {
             <h1>&nbsp;</h1>
             <h1>&nbsp;</h1>
             <h1>&nbsp;</h1>
-            <h1>&nbsp;</h1>
+            <h2>&nbsp;</h2>
 
           </Cell>
           <Cell className="resume-right-col" col={8}>
