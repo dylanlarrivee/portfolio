@@ -53,32 +53,14 @@ class Resume extends Component {
             <h1>&nbsp;</h1>
             <h2>&nbsp;</h2>
             <h2>&nbsp;</h2>
-            <h4>&nbsp;</h4>
+            <h5>&nbsp;</h5>
 
 
 
           </Cell>
           <Cell className="resume-right-col" col={8}>
           <h2>Experience</h2>
-            <Experience 
-              startYear={'February 2015'}
-              endYear={'March 2017'}
-              jobName="Expert Services Associate, Oracle"
-              jobDescription1="•	Scoped, built and designed brand new event-triggered campaigns for clients on time, on budget and error-free using the Oracle Responsys Interact marketing platform.
-              "
-              jobDescription2="•	Consult clients on technical and complex projects while also improving efficiency in business requirements and processes. 
-              "
-            />
-             <Experience 
-              startYear={'April 2017'}
-              endYear={'Auguest 2018'}
-              jobName="Senior Campaign Specialist, Lister Digital"
-              jobDescription1="•	The US technical lead for 3 accounts simultaneously and coordinated efforts between onshore and offshore efforts."
-              jobDescription2="•	 Designed data model solutions and provided best practices recommendations based on clients' marketing strategies and requirements.
-              "
-            
-            />
-             <Experience 
+          <Experience 
               startYear={'August 2018'}
               endYear={'Present'}
               jobName="Technical Services Consultant, Shaw / Scott"
@@ -92,6 +74,24 @@ class Resume extends Component {
               jobDescription4="•	Architect and implement highly dynamic and customized preference center forms for multiple clients using JavaScript and Vue.js framework.
               "
             />
+            <Experience 
+              startYear={'April 2017'}
+              endYear={'Auguest 2018'}
+              jobName="Senior Campaign Specialist, Lister Digital"
+              jobDescription1="•	The US technical lead for 3 accounts simultaneously and coordinated efforts between onshore and offshore efforts."
+              jobDescription2="•	 Designed data model solutions and provided best practices recommendations based on clients' marketing strategies and requirements."
+            />
+            <Experience 
+              startYear={'February 2015'}
+              endYear={'March 2017'}
+              jobName="Expert Services Associate, Oracle"
+              jobDescription1="•	Scoped, built and designed brand new event-triggered campaigns for clients on time, on budget and error-free using the Oracle Responsys Interact marketing platform.
+              "
+              jobDescription2="•	Consult clients on technical and complex projects while also improving efficiency in business requirements and processes. 
+              "
+            />
+             
+             
             <h2>Education</h2>
             <Education
               startYear={2007}

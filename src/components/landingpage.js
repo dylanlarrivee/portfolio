@@ -4,17 +4,17 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "70%", margin: "auto" }}>
+      <div style={{ width: "80%", margin: "auto" }}>
         <Grid className="demo-grid-1">
 
-          <Cell col={12}>
+          <Cell col={12} >
             <div className="banner-text">
               <h1>Dylan Larrivee</h1>
               <h2>Software Engineer</h2>
               <h2>Seattle, WA</h2>
               <h3>
                 JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
-                AWS | VueJS | React
+                AWS | VueJS | React | Git
               </h3>
 
               <div className="social-links">
