@@ -41,7 +41,7 @@ class Projects extends Component {
                   Web app that allows users to stop a running program in their
                   Oracle Responsys account without the need to log in to the
                   platform. 
-                  <p>Technologies used:</p>
+                  <h5>Technologies used:</h5>
                   Node.js, PostgreSQl, JavaScript and
                   utilizes the Responsys API functionality.
                 </div>
@@ -55,7 +55,7 @@ class Projects extends Component {
           <Cell col={4} tablet={5}>
             <Card
               shadow={5}
-              style={{ width: "350px", height: "390px", margin: "auto" }}
+              style={{ width: "350px", height: "550px", margin: "auto" }}
             >
               <CardTitle
                 expand
@@ -68,12 +68,14 @@ class Projects extends Component {
               <CardText>
                 <div className="project-card-text">
                   <p> Node Media Server: Client App</p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-                  convallis.
+                  A client and server app that allows users to stream media from their home computer from anywhere with internet access through a secure sign in portal. Also allows the uses of streaming legal torrents from magnet URIs.
+                  <h5>Technologies used:</h5>
+                  Node.js, Express, PostgreSQl, JavaScript, AWS
                 </div>
               </CardText>
               <CardActions border>
-                <Button colored>Github Code</Button>
+                <Button colored>Server Github Code</Button>
+                <Button colored>Client Github Code</Button>
               </CardActions>
             </Card>
           </Cell>
@@ -81,7 +83,7 @@ class Projects extends Component {
           <Cell col={4} tablet={5}>
             <Card
               shadow={5}
-              style={{ width: "350px", height: "390px", margin: "auto" }}
+              style={{ width: "350px", height: "550px", margin: "auto" }}
             >
               <CardTitle
                 expand
@@ -93,11 +95,10 @@ class Projects extends Component {
               ></CardTitle>
               <CardText>
                 <div className="project-card-text">
-                  <p> Node Media Server: Server App</p>
-                  Web app that allows users to stop a running program in their
-                  Oracle Responsys account without the need to log in to the
-                  platform. Built using Node.js, PostgreSQl, JavaScript and
-                  utilizes the Responsys API functionality.
+                <p> Personal Portfolio Website</p>
+                  Personal website you are currently viewing.
+                  <h5>Technologies used:</h5>
+                  React-MDL
                 </div>
               </CardText>
               <CardActions border>

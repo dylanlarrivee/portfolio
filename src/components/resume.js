@@ -10,8 +10,14 @@ class Resume extends Component {
       <div >
         <Grid>
           <Cell className="resume-left-col" col={4}>
-
-            <h2 >Dylan Larrivee</h2>
+           {/* 
+            <div style={{ textAlign: "center" }}>
+              <img src={logo} />
+            </div>
+            
+            <h2 style={{ paddingTop: "1em" }}>Dylan Larrivee</h2>
+            */}
+            <h2>Dylan Larrivee</h2>
             <h4>Software Engineer</h4>
             <hr
               style={{
