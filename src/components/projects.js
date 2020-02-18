@@ -113,7 +113,7 @@ class Projects extends Component {
                   >
                     <Button colored>Client App Github Code</Button>
                   </a><a
-                    href="https://github.com/dylanlarrivee/mediaServerClientApp_Pub"
+                    href="https://github.com/dylanlarrivee/mediaServer_pub"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -238,7 +238,7 @@ class Projects extends Component {
                   >
                     <Button colored>Client App Github Code</Button>
                   </a><a
-                    href="https://github.com/dylanlarrivee/mediaServerClientApp_Pub"
+                    href="https://github.com/dylanlarrivee/mediaServer_pub"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

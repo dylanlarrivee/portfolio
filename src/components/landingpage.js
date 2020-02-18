@@ -11,7 +11,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Dylan Larrivee</h1>
               <h2>Software Engineer</h2>
-              <h2>Seattle, WA</h2>
+              <h2>Bellevue, WA</h2>
               <h3>
                 JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
                 AWS | VueJS | React | Git | HTML / CSS

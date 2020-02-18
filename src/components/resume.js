@@ -24,7 +24,7 @@ class Resume extends Component {
             <Button raised ripple colored>Download Cover Letter PDF</Button>
             </a>
             </div>
-            <h2 style={{ paddingTop: "5px" }}>Dylan Larrivee</h2>
+            <h2 style={{ paddingTop: "14px" }}>Dylan Larrivee</h2>
 
             <h4>Software Engineer</h4>
             <hr
@@ -65,9 +65,11 @@ class Resume extends Component {
             <h2>&nbsp;</h2>
             <h2>&nbsp;</h2>
             <h5>&nbsp;</h5>
+            <h2>&nbsp;</h2>
           </Cell>
  {/* Mobile Version */}        
  <Cell hideDesktop className="resume-left-col" col={12}>
+            {/* 
             <div style={{ textAlign: "center" }}>
             <a href={resume} download="Dylan_Larrivee_Resume.pdf">
             <Button raised ripple colored>Download Resume PDF</Button>
@@ -81,6 +83,7 @@ class Resume extends Component {
             <Button raised ripple colored>Download Cover Letter PDF</Button>
             </a>
             </div>
+            */}   
             <h2 style={{ paddingTop: "5px" }}>Dylan Larrivee</h2>
 
             <h4>Software Engineer</h4>
