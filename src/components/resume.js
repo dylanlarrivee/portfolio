@@ -14,7 +14,6 @@ class Resume extends Component {
             <div style={{ textAlign: "center" }}>
               <img src={logo} />
             </div>
-            
             <h2 style={{ paddingTop: "1em" }}>Dylan Larrivee</h2>
             */}
             <h2>Dylan Larrivee</h2>
