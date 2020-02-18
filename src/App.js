@@ -18,7 +18,7 @@ function App() {
                 <Link to="/">Home</Link>
             </Navigation>
         </Header>
-        <Drawer hideDesktop title="DL Portfolio">
+        <Drawer title="DL Portfolio">
             <Navigation>
               <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
