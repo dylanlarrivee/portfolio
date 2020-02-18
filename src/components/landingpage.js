@@ -14,7 +14,7 @@ class Landing extends Component {
               <h2>Seattle, WA</h2>
               <h3>
                 JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
-                AWS | VueJS | React | Git
+                AWS | VueJS | React | Git | HTML / CSS
               </h3>
 
               <div className="social-links">

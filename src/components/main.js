@@ -5,16 +5,15 @@ import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
-import Landing from './landingpage';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/portfolioWebsite" component={LandingPage} />
-        <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/portfolio/" component={LandingPage} />
+        <Route exact path="/portfolio" component={LandingPage} />
+        <Route exact path="/portfolio/aboutme" component={AboutMe} />
+        <Route exact path="/portfolio/contact" component={Contact} />
+        <Route exact path="/portfolio/projects" component={Projects} />
+        <Route exact path="/portfolio/resume" component={Resume} />
     </Switch>
 )
 

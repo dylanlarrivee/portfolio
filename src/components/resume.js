@@ -1,19 +1,30 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
-import logo from "../img/dLarrivee-logo.png";
+import { Grid, Cell, Button } from "react-mdl";
+import logo from "../img/dLarrivee-logo-nobackground.png";
 import Education from "./education";
 import Experience from "./experience";
+import resume from "../img/Dylan_Larrivee_Resume.pdf";
+import coverletter from "../img/SWE_Dylan_Larrivee_Cover_Letter.pdf";
 
 class Resume extends Component {
   render() {
     return (
       <div >
         <Grid>
-          <Cell className="resume-left-col" col={4}>
+  {/* Desktop Version */}        
+          <Cell hidePhone hideTablet className="resume-left-col" col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={logo} />
+            <a href={resume} download="Dylan_Larrivee_Resume.pdf">
+            <Button raised ripple colored>Download Resume PDF</Button>
+            </a>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <a href={coverletter} download="Dylan_Larrivee_Cover_Letter.pdf">
+            <Button raised ripple colored>Download Cover Letter PDF</Button>
+            </a>
             </div>
-            <h2 style={{ paddingTop: "1em" }}>Dylan Larrivee</h2>
+            <h2 style={{ paddingTop: "5px" }}>Dylan Larrivee</h2>
 
             <h4>Software Engineer</h4>
             <hr
@@ -42,22 +53,74 @@ class Resume extends Component {
               }}
             />
             <h5>Address</h5>
-            <p>12132 se 10th st Bellevue, Wa 98005</p>
+            <p>12132 SE 10th ST Bellevue, WA 98005</p>
             <h5>Phone</h5>
             <p>425.890.7785</p>
             <h5>Email</h5>
             <p>dylanlarrivee@gmail.com</p>
             <h5>Web</h5>
-            <p>www.4</p>
+            <p>https://dylanlarrivee.github.io/portfolio/</p>
             <h1>&nbsp;</h1>
             <h1>&nbsp;</h1>
             <h2>&nbsp;</h2>
             <h2>&nbsp;</h2>
             <h5>&nbsp;</h5>
+          </Cell>
+ {/* Mobile Version */}        
+ <Cell hideDesktop className="resume-left-col" col={12}>
+            <div style={{ textAlign: "center" }}>
+            <a href={resume} download="Dylan_Larrivee_Resume.pdf">
+            <Button raised ripple colored>Download Resume PDF</Button>
+            </a>
+            </div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <div style={{ textAlign: "center" }}>
+            <a href={coverletter} download="Dylan_Larrivee_Cover_Letter.pdf">
+            <Button raised ripple colored>Download Cover Letter PDF</Button>
+            </a>
+            </div>
+            <h2 style={{ paddingTop: "5px" }}>Dylan Larrivee</h2>
 
-
+            <h4>Software Engineer</h4>
+            <hr
+              style={{
+                borderTop: "3px solid #282c34",
+                width: "50%",
+                padding: "0px 10px 0px"
+              }}
+            />
+            <p>
+              {" "}
+              I am a highly motivated software engineer who is looking to move
+              out of my current technical consulting role and into a full-time
+              developer position. In my professional career, developing custom
+              solutions for marketer’s needs has allowed me to work with many
+              types of technologies within the martech industry. I have a strong
+              passion for technology and am always looking for opportunities to
+              supplement my learning through personal projects and multiple
+              online learning resources that I am continuously engaging in.{" "}
+            </p>
+            <hr
+              style={{
+                borderTop: "3px solid #282c34",
+                width: "50%",
+                padding: "0px 10px 0px"
+              }}
+            />
+            <h5>Address</h5>
+            <p>12132 SE 10th ST Bellevue, WA 98005</p>
+            <h5>Phone</h5>
+            <p>425.890.7785</p>
+            <h5>Email</h5>
+            <p>dylanlarrivee@gmail.com</p>
+            <h5>Web</h5>
+            <p>https://dylanlarrivee.github.io/portfolio/</p>
 
           </Cell>
+
+
           <Cell className="resume-right-col" col={8}>
           <h2>Experience</h2>
           <Experience 
