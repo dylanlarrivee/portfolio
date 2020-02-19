@@ -81,6 +81,7 @@
   margin: auto;
   border-radius: 10px;
   padding: 2em;
+  height: 100%;
 }
 
 .resume-left-col {
@@ -90,6 +91,7 @@
   margin: auto;
   border-radius: 10px;
   padding: 2em;
+  height: 100%;
 }
 
 .resume-left-col h1 {

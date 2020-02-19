@@ -9,22 +9,23 @@ import coverletter from "../img/SWE_Dylan_Larrivee_Cover_Letter.pdf";
 class Resume extends Component {
   render() {
     return (
-      <div >
+      <div style={{ height: "1200px"}}>   
         <Grid>
-  {/* Desktop Version */}        
+  {/* Desktop Version */}   
+               
           <Cell hidePhone hideTablet className="resume-left-col" col={4}>
-            <div style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "center", margin: "auto", paddingTop: "10px"}}>
             <a href={resume} download="Dylan_Larrivee_Resume.pdf">
-            <Button raised ripple colored>Download Resume PDF</Button>
+            <Button raised ripple colored>Download Resume</Button>
             </a>
             &nbsp;
             &nbsp;
             &nbsp;
-            <a href={coverletter} download="Dylan_Larrivee_Cover_Letter.pdf">
-            <Button raised ripple colored>Download Cover Letter PDF</Button>
+            <a href={coverletter}  download="Dylan_Larrivee_Cover_Letter.pdf">
+            <Button raised ripple colored>Download Cover Letter</Button>
             </a>
             </div>
-            <h2 style={{ paddingTop: "14px" }}>Dylan Larrivee</h2>
+            <h2 style={{ padding: "14px" }}>Dylan Larrivee</h2>
 
             <h4>Software Engineer</h4>
             <hr
@@ -62,12 +63,13 @@ class Resume extends Component {
             <p>https://dylanlarrivee.github.io/portfolio/</p>
             <h1>&nbsp;</h1>
             <h1>&nbsp;</h1>
-            <h2>&nbsp;</h2>
-            <h2>&nbsp;</h2>
             <h5>&nbsp;</h5>
+            <h5>&nbsp;</h5>
+            <h6>&nbsp;</h6>
             <h2>&nbsp;</h2>
           </Cell>
- {/* Mobile Version */}        
+ {/* Mobile Version */}  
+ <div style={{paddingBottom:"10px"}}>    
  <Cell hideDesktop className="resume-left-col" col={12}>
             {/* 
             <div style={{ textAlign: "center" }}>
@@ -122,7 +124,7 @@ class Resume extends Component {
             <p>https://dylanlarrivee.github.io/portfolio/</p>
 
           </Cell>
-
+          </div>  
 
           <Cell className="resume-right-col" col={8}>
           <h2>Experience</h2>
