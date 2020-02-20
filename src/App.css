@@ -74,6 +74,17 @@
 }
 
 /* Resume page css*/
+
+.resume-desktop-background {
+  background-color: white;
+  color:#282c34;
+  opacity: .9;
+  margin: auto;
+  border-radius: 20px;
+  padding: 0em;
+  height: '100vh';
+}
+
 .resume-right-col {
   background-color: #282c34;
   color: white;
@@ -112,3 +123,12 @@
   padding-top: "10px" 
 }
 
+.desktop-project-cards{
+  background-color: #282c34;
+  color: white;
+  opacity: .9;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2em;
+  height: 100%;
+}

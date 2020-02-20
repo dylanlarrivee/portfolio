@@ -9,23 +9,28 @@ import coverletter from "../img/SWE_Dylan_Larrivee_Cover_Letter.pdf";
 class Resume extends Component {
   render() {
     return (
-      <div style={{ height: "1200px"}}>   
+      <div className="resume-desktop-background">   
         <Grid>
   {/* Desktop Version */}   
                
           <Cell hidePhone hideTablet className="resume-left-col" col={4}>
-            <div style={{ textAlign: "center", margin: "auto", paddingTop: "10px"}}>
+          <h2>Dylan Larrivee</h2>
+            <div style={{ textAlign: "left", margin: "auto", paddingTop: "0px"}}>
+              
             <a href={resume} download="Dylan_Larrivee_Resume.pdf">
             <Button raised ripple colored>Download Resume</Button>
             </a>
+            </div>
             &nbsp;
             &nbsp;
             &nbsp;
+            <div style={{ textAlign: "left", margin: "auto", paddingTop: "0px"}}>
             <a href={coverletter}  download="Dylan_Larrivee_Cover_Letter.pdf">
             <Button raised ripple colored>Download Cover Letter</Button>
             </a>
             </div>
-            <h2 style={{ padding: "14px" }}>Dylan Larrivee</h2>
+            
+            
 
             <h4>Software Engineer</h4>
             <hr

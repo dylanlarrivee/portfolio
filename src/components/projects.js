@@ -14,6 +14,9 @@ import programstopper from "../img/ri-program-stopper.png";
 import damp from "../img/damp.png";
 import portfolio from "../img/portfolio-react2.png";
 
+
+{/*  hspace: "45"  - padding space for the images if needed */}
+
 class Projects extends Component {
   render() {
     return (
@@ -32,8 +35,8 @@ class Projects extends Component {
               <Card
                 shadow={5}
                 style={{
-                  width: "375px",
-                  height: "650px",
+                  width: "90%",
+                  height: "100%",
                   margin: "auto",
                   align: "middle"
                 }}
@@ -48,7 +51,6 @@ class Projects extends Component {
                     src={programstopper}
                     width="250"
                     height="300"
-                    hspace="45"
                   />
                 </CardTitle>
                 <CardText>
@@ -80,10 +82,9 @@ class Projects extends Component {
               <Card
                 shadow={5}
                 style={{
-                  width: "375px",
-                  height: "650px",
-                  margin: "auto",
-                  hspace: "45"
+                  width: "90%",
+                  height: "100%",
+                  margin: "auto"
                 }}
               >
                 <CardTitle
@@ -128,16 +129,16 @@ class Projects extends Component {
             <div style={{ align: "middle" }}>
               <Card
                 shadow={5}
-                style={{ width: "375px", height: "650px", margin: "auto" }}
+                style={{ width: "90%", height: "100%", margin: "auto" }}
               >
                 <CardTitle
                   expand
                   style={{
-                    color: "#fff",
-                    background:
-                      "url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) bottom right 15% no-repeat #46B6AC"
+                    color: "#fff"
                   }}
-                ></CardTitle>
+                >
+                  <img src={portfolio} width="300px" height="350px" />
+                </CardTitle>
                 <CardText>
                   <div className="project-card-text">
                     <p> Personal Portfolio Website</p>
