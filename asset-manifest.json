@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.af9cb273.chunk.css",
-    "main.js": "/portfolio/static/js/main.f52b0ab3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f52b0ab3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a344b20b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a344b20b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8d3d3246.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8d3d3246.js.map",
     "static/css/2.a6bc1c31.chunk.css": "/portfolio/static/css/2.a6bc1c31.chunk.css",
-    "static/js/2.a6d5835f.chunk.js": "/portfolio/static/js/2.a6d5835f.chunk.js",
-    "static/js/2.a6d5835f.chunk.js.map": "/portfolio/static/js/2.a6d5835f.chunk.js.map",
+    "static/js/2.189adf29.chunk.js": "/portfolio/static/js/2.189adf29.chunk.js",
+    "static/js/2.189adf29.chunk.js.map": "/portfolio/static/js/2.189adf29.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.fad269a3d7e2e0f94099eac7720b1b65.js": "/portfolio/precache-manifest.fad269a3d7e2e0f94099eac7720b1b65.js",
+    "precache-manifest.dd9c680341dd1bceef165305f445960a.js": "/portfolio/precache-manifest.dd9c680341dd1bceef165305f445960a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.a6bc1c31.chunk.css.map": "/portfolio/static/css/2.a6bc1c31.chunk.css.map",
     "static/css/main.af9cb273.chunk.css.map": "/portfolio/static/css/main.af9cb273.chunk.css.map",
-    "static/js/2.a6d5835f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a6d5835f.chunk.js.LICENSE.txt",
+    "static/js/2.189adf29.chunk.js.LICENSE.txt": "/portfolio/static/js/2.189adf29.chunk.js.LICENSE.txt",
     "static/media/Dylan_Larrivee_Resume.pdf": "/portfolio/static/media/Dylan_Larrivee_Resume.9cdba09d.pdf",
     "static/media/SWE_Dylan_Larrivee_Cover_Letter.pdf": "/portfolio/static/media/SWE_Dylan_Larrivee_Cover_Letter.fb4028e7.pdf",
     "static/media/damp.png": "/portfolio/static/media/damp.8d0f8de4.png",
     "static/media/portfolio-react2.png": "/portfolio/static/media/portfolio-react2.7c7166a6.png",
+    "static/media/python-logo.png": "/portfolio/static/media/python-logo.dc53abfe.png",
     "static/media/ri-program-stopper.png": "/portfolio/static/media/ri-program-stopper.7aed9949.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8d3d3246.js",
     "static/css/2.a6bc1c31.chunk.css",
-    "static/js/2.a6d5835f.chunk.js",
+    "static/js/2.189adf29.chunk.js",
     "static/css/main.af9cb273.chunk.css",
-    "static/js/main.f52b0ab3.chunk.js"
+    "static/js/main.a344b20b.chunk.js"
   ]
 }
