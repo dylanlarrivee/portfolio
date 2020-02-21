@@ -146,6 +146,8 @@ class Resume extends Component {
               "
               jobDescription4="•	Architect and implement highly dynamic and customized preference center forms for multiple clients using JavaScript and Vue.js framework.
               "
+              jobDescription5="•	Write custom Javascript code for clients to use on tagging sites such as Google Tag Manager.
+              "
             />
             <Experience 
               startYear={'April 2017'}
@@ -153,31 +155,35 @@ class Resume extends Component {
               jobName="Senior Campaign Specialist, Lister Digital"
               jobDescription1="•	The US technical lead for 3 accounts simultaneously and coordinated efforts between onshore and offshore efforts."
               jobDescription2="•	 Designed data model solutions and provided best practices recommendations based on clients' marketing strategies and requirements."
+              jobDescription3="•	 Develop and debug JSON/XML payloads for SOAP and REST API triggered email campaigns and custom events."
             />
             <Experience 
               startYear={'February 2015'}
               endYear={'March 2017'}
               jobName="Expert Services Associate, Oracle"
-              jobDescription1="•	Scoped, built and designed brand new event-triggered campaigns for clients on time, on budget and error-free using the Oracle Responsys Interact marketing platform.
+              jobDescription1="•	Scoped, built and designed brand new event-triggered campaigns for clients on time, on budget and error-free using the Oracle Responsys Interact marketing platform for Fortune 500 retail companies.
               "
               jobDescription2="•	Consult clients on technical and complex projects while also improving efficiency in business requirements and processes. 
+              "
+              jobDescription3="•	Demonstrate excellent time management being in charge of multiple projects at once and allocating time based on customer needs and project deadlines.
               "
             />
              
              
             <h2>Education</h2>
             <Education
-              startYear={2007}
-              endYear={2009}
-              schoolName="Bellevue College"
-              schoolDescription="Associate in Business"
-            />
-            <Education
               startYear={20011}
               endYear={2013}
               schoolName="University of Washington Bothell"
               schoolDescription="BA in Business Administration. Finance and International Business"
             />
+            <Education
+              startYear={2007}
+              endYear={2009}
+              schoolName="Bellevue College"
+              schoolDescription="Associate in Business"
+            />
+            
             <hr
               style={{
                 borderTop: "3px solid #282c34",
