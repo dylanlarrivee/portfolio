@@ -13,8 +13,9 @@ class Resume extends Component {
         <Grid>
   {/* Desktop Version */}   
                
-          <Cell hidePhone hideTablet className="resume-left-col" col={4}>
-          <h2>Dylan Larrivee</h2>
+          <Cell hidePhone hideTablet col={4}>
+            <div className="resume-left-col">
+          <h2 style={{paddingTop: "0px"}}>Dylan Larrivee</h2>
             <div style={{ textAlign: "left", margin: "auto", paddingTop: "0px"}}>
               
             <a href={resume} download="Dylan_Larrivee_Resume.pdf">
@@ -72,6 +73,7 @@ class Resume extends Component {
             <h5>&nbsp;</h5>
             <h6>&nbsp;</h6>
             <h2>&nbsp;</h2>
+            </div>
           </Cell>
  {/* Mobile Version */}  
  <div style={{paddingBottom:"10px"}}>    
