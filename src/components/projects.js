@@ -180,7 +180,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={programstopper} width="250" height="300" />
+                  <img src={programstopper} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -217,7 +217,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={damp} width="250" height="300" />
+                  <img src={damp} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -261,7 +261,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={portfolio} width="250" height="300" />
+                  <img src={portfolio} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -437,7 +437,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={pythonlogo} width="250" height="300" />
+                  <img src={pythonlogo} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
