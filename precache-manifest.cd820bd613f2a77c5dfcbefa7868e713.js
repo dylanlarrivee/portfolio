@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dba6e4835096e8d18b79000f9095037e",
+    "revision": "23c29b0141e910e6838c259737130a96",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.a6bc1c31.chunk.css"
   },
   {
-    "revision": "16f76ab88388067b1a76",
+    "revision": "607da1839a6181039af0",
     "url": "/portfolio/static/css/main.af9cb273.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.189adf29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16f76ab88388067b1a76",
-    "url": "/portfolio/static/js/main.4a036d17.chunk.js"
+    "revision": "607da1839a6181039af0",
+    "url": "/portfolio/static/js/main.de157f6c.chunk.js"
   },
   {
     "revision": "3500a4283f62d954a8f6",
     "url": "/portfolio/static/js/runtime-main.8d3d3246.js"
   },
   {
-    "revision": "9cdba09de09dda326cd135ebb7fd09dc",
-    "url": "/portfolio/static/media/Dylan_Larrivee_Resume.9cdba09d.pdf"
+    "revision": "aecc1ff1bb3f71e5a88d8428281eaeb7",
+    "url": "/portfolio/static/media/Dylan_Larrivee_Resume.aecc1ff1.pdf"
   },
   {
     "revision": "fb4028e7bfe78ba41030b9ec30e0f9fd",
