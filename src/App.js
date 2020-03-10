@@ -8,7 +8,7 @@ import {Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, Foot
 function App() {
   return (
     <div style={{height: '100vh', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+    <Layout style={{background: 'url(https://images.unsplash.com/photo-1502175353174-a7a70e73b362?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1570&q=80) center / cover'}}>
         <Header transparent title="dLarrivee Portfolio" style={{color: 'white'}}>
             <Navigation>
                 <Link to="/portfolio/resume">Resume</Link>
