@@ -158,6 +158,7 @@ class Resume extends Component {
               jobDescription1="•	The US technical lead for 3 accounts simultaneously and coordinated efforts between onshore and offshore efforts."
               jobDescription2="•	 Designed data model solutions and provided best practices recommendations based on clients' marketing strategies and requirements."
               jobDescription3="•	 Develop and debug JSON/XML payloads for SOAP and REST API triggered email campaigns and custom events."
+              jobDescription4="•	 Develop, coordinate, test and launch HTML / CSS email campaigns using the Oracle Marketing platform."
             />
             <Experience 
               startYear={'February 2015'}
