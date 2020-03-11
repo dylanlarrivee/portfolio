@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af9cb273.chunk.css",
-    "main.js": "/portfolio/static/js/main.cbaf910e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cbaf910e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.18516fb5.chunk.css",
+    "main.js": "/portfolio/static/js/main.3dd309f0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3dd309f0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8d3d3246.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8d3d3246.js.map",
     "static/css/2.a6bc1c31.chunk.css": "/portfolio/static/css/2.a6bc1c31.chunk.css",
-    "static/js/2.189adf29.chunk.js": "/portfolio/static/js/2.189adf29.chunk.js",
-    "static/js/2.189adf29.chunk.js.map": "/portfolio/static/js/2.189adf29.chunk.js.map",
+    "static/js/2.b4715f90.chunk.js": "/portfolio/static/js/2.b4715f90.chunk.js",
+    "static/js/2.b4715f90.chunk.js.map": "/portfolio/static/js/2.b4715f90.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ba469f9146dab8f1c1febf30112c4f4d.js": "/portfolio/precache-manifest.ba469f9146dab8f1c1febf30112c4f4d.js",
+    "precache-manifest.2400216c4b47eae560fe0f53c6165cbe.js": "/portfolio/precache-manifest.2400216c4b47eae560fe0f53c6165cbe.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.a6bc1c31.chunk.css.map": "/portfolio/static/css/2.a6bc1c31.chunk.css.map",
-    "static/css/main.af9cb273.chunk.css.map": "/portfolio/static/css/main.af9cb273.chunk.css.map",
-    "static/js/2.189adf29.chunk.js.LICENSE.txt": "/portfolio/static/js/2.189adf29.chunk.js.LICENSE.txt",
+    "static/css/main.18516fb5.chunk.css.map": "/portfolio/static/css/main.18516fb5.chunk.css.map",
+    "static/js/2.b4715f90.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b4715f90.chunk.js.LICENSE.txt",
     "static/media/Dylan_Larrivee_Resume.pdf": "/portfolio/static/media/Dylan_Larrivee_Resume.aecc1ff1.pdf",
     "static/media/SWE_Dylan_Larrivee_Cover_Letter.pdf": "/portfolio/static/media/SWE_Dylan_Larrivee_Cover_Letter.fb4028e7.pdf",
     "static/media/damp.png": "/portfolio/static/media/damp.8d0f8de4.png",
+    "static/media/dynamic-preference-center.png": "/portfolio/static/media/dynamic-preference-center.96039e5b.png",
     "static/media/portfolio-react2.png": "/portfolio/static/media/portfolio-react2.7c7166a6.png",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.dc53abfe.png",
     "static/media/ri-program-stopper.png": "/portfolio/static/media/ri-program-stopper.7aed9949.png"
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.8d3d3246.js",
     "static/css/2.a6bc1c31.chunk.css",
-    "static/js/2.189adf29.chunk.js",
-    "static/css/main.af9cb273.chunk.css",
-    "static/js/main.cbaf910e.chunk.js"
+    "static/js/2.b4715f90.chunk.js",
+    "static/css/main.18516fb5.chunk.css",
+    "static/js/main.3dd309f0.chunk.js"
   ]
 }
