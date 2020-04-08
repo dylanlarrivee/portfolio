@@ -10,11 +10,11 @@ class Landing extends Component {
           <Cell col={12} >
             <div className="banner-text">
               <h1>Dylan Larrivee</h1>
-              <h2>Software Engineer</h2>
+              <h2>Software Developer</h2>
               <h2>Bellevue, WA</h2>
               <h3>
                 JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
-                AWS | VueJS | React | Git | HTML / CSS
+                AWS | VueJS | React | Git | HTML |  CSS
               </h3>
 
               <div className="social-links">

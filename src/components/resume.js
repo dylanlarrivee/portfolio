@@ -14,7 +14,7 @@ class Resume extends Component {
   {/* Desktop Version */}   
                
           <Cell hidePhone hideTablet col={4}>
-            <div className="resume-left-col">
+            <div>
           <h2 style={{paddingTop: "0px"}}>Dylan Larrivee</h2>
             <div style={{ textAlign: "left", margin: "auto", paddingTop: "0px"}}>
               
@@ -33,7 +33,7 @@ class Resume extends Component {
             
             
 
-            <h4>Software Engineer</h4>
+            <h4>Software Developer</h4>
             <hr
               style={{
                 borderTop: "3px solid #282c34",
@@ -43,14 +43,7 @@ class Resume extends Component {
             />
             <p>
               {" "}
-              I am a highly motivated software engineer who is looking to move
-              out of my current technical consulting role and into a full-time
-              developer position. In my professional career, developing custom
-              solutions for marketer’s needs has allowed me to work with many
-              types of technologies within the martech industry. I have a strong
-              passion for technology and am always looking for opportunities to
-              supplement my learning through personal projects and multiple
-              online learning resources that I am continuously engaging in.{" "}
+              I am a high-performance software developer and marketing technologist. In my professional career, developing custom solutions for marketer’s needs has allowed me to work with many types of technologies within the marketing technology industry. I am solutions-driven, have a strong passion for technology and am always looking for opportunities to supplement my learning through personal projects and multiple online learning resources that I am continuously engaging in. {" "}
             </p>
             <hr
               style={{

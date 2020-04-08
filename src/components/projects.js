@@ -14,6 +14,7 @@ import programstopper from "../img/ri-program-stopper.png";
 import damp from "../img/damp.png";
 import portfolio from "../img/portfolio-react2.png";
 import pythonlogo from "../img/python-logo.png";
+import dynamicPreferenceCenter from "../img/dynamic-preference-center.png"
 
 
 {/*  hspace: "45"  - padding space for the images if needed */}
@@ -76,7 +77,6 @@ class Projects extends Component {
               </Card>
             </div>
           </Cell>
-
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -93,38 +93,37 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={damp} width="100%" height="70%" hspace="0" />
+                  <img src={dynamicPreferenceCenter} width="100%" height="100%"/>
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
-                    <p> Node Media Server: DaMp</p>A client and server app that
-                    allows users to stream media from their home computer from
-                    anywhere with internet access through a secure sign in
-                    portal. Also allows the uses of streaming legal torrents
-                    from magnet URIs.
+                    <p> Dynamic Preference Center</p>
+                    Multiple dynamic preference center forms built to be used within the Oracle Responsys Marketing Platform.
                     <h5>Technologies used:</h5>
-                    Node.js, Express, PostgreSQl, JavaScript, Vue.js, AWS
+                    HTML, CSS, JavaScript, Vue.js
                   </div>
                 </CardText>
                 <CardActions border>
                 <a
-                    href="https://github.com/dylanlarrivee/mediaServerClientApp_Pub"
+                    href="https://github.com/dylanlarrivee/dynamic-preference-center"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button colored>Client App Github Code</Button>
-                  </a><a
-                    href="https://github.com/dylanlarrivee/mediaServer_pub"
+                    <Button colored>Github Code</Button>
+                  </a>
+                  <a
+                    href="https://emails.flyfrontier.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGnmAzgwDFfDvJUlgUyrP2we3C6zfWwsTFifEviTRVXMtX%3DYQpglLjHJlTQGr4yKb2lvUNgIpdXSMCHtkJC6zfWwsTFifEviTR&_ei_=EiDSWPJ40JoNmqwUk3SjzE8"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button colored>Server App Github Code</Button>
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
+          
             </div>
-          </Cell>
-
+          </Cell>       
+          
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -204,7 +203,6 @@ class Projects extends Component {
               </Card>
             </div>
           </Cell>
-
           <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -217,37 +215,36 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={damp} width="100%" height="100%" />
+                  <img src={dynamicPreferenceCenter} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
-                    <p> Node Media Server: DaMp</p>A client and server app that
-                    allows users to stream media from their home computer from
-                    anywhere with internet access through a secure sign in
-                    portal. Also allows the uses of streaming legal torrents
-                    from magnet URIs.
+                    <p> Dynamic Preference Center</p>
+                    Multiple dynamic preference center forms built to be used within the Oracle Responsys Marketing Platform.
                     <h5>Technologies used:</h5>
-                    Node.js, Express, PostgreSQl, JavaScript, Vue.js, AWS
+                    HTML, CSS, JavaScript, Vue.js
                   </div>
                 </CardText>
                 <CardActions border>
                 <a
-                    href="https://github.com/dylanlarrivee/mediaServerClientApp_Pub"
+                    href="https://github.com/dylanlarrivee/dynamic-preference-center"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button colored>Client App Github Code</Button>
-                  </a><a
-                    href="https://github.com/dylanlarrivee/mediaServer_pub"
+                    <Button colored>Github Code</Button>
+                  </a>
+                  <a
+                    href="https://emails.flyfrontier.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGnmAzgwDFfDvJUlgUyrP2we3C6zfWwsTFifEviTRVXMtX%3DYQpglLjHJlTQGr4yKb2lvUNgIpdXSMCHtkJC6zfWwsTFifEviTR&_ei_=EiDSWPJ40JoNmqwUk3SjzE8"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button colored>Server App Github Code</Button>
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
             </div>
           </Cell>
+         
 
           <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
@@ -332,7 +329,6 @@ class Projects extends Component {
 
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
-              {/*
               <Card
                 shadow={5}
                 style={{
@@ -347,7 +343,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={damp} width="70%" height="70%" hspace="45" />
+                  <img src={damp} width="100%" height="70%" hspace="0" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -376,9 +372,9 @@ class Projects extends Component {
                   </a>
                 </CardActions>
               </Card>
-            */}
             </div>
           </Cell>
+
 
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
@@ -462,7 +458,6 @@ class Projects extends Component {
 
           <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
-              {/*
               <Card
                 shadow={5}
                 style={{ width: "100%", height: "100%", margin: "auto" }}
@@ -473,7 +468,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={damp} width="250" height="300" />
+                  <img src={damp} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -502,7 +497,6 @@ class Projects extends Component {
                   </a>
                 </CardActions>
               </Card>
-              */}
             </div>
           </Cell>
 

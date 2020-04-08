@@ -8,12 +8,12 @@ import {Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, Foot
 function App() {
   return (
     <div style={{height: '100vh', position: 'relative'}}>
-    <Layout style={{background: 'url(https://images.unsplash.com/photo-1502175353174-a7a70e73b362?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1570&q=80) center / cover'}}>
-        <Header transparent title="dLarrivee Portfolio" style={{color: 'white'}}>
-            <Navigation>
-                <Link to="/portfolio/resume">Resume</Link>
-                <Link to="/portfolio/projects">Projects</Link>
-                <Link to="/portfolio/">Home</Link>
+    <Layout  style={{background: 'url(https://images.unsplash.com/photo-1531335773500-23410807365a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80) center / cover'}}>
+        <Header transparent title="dLarrivee" style={{color: 'black'}}>
+            <Navigation >
+                <Link style={{color: 'black'}} to="/portfolio/resume">Resume</Link>
+                <Link style={{color: 'black'}} to="/portfolio/projects">Projects</Link>
+                <Link style={{color: 'black'}} to="/portfolio/">Home</Link>
             </Navigation>
         </Header>
         <Drawer title="dLarrivee Portfolio">
