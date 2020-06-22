@@ -5,6 +5,25 @@ import { Link } from 'react-router-dom'
 import FooterModule from './components/footer';
 import {Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterDropDownSection, FooterLinkList} from 'react-mdl';
 
+const MobileNav = (props) => {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    return (
+      <Drawer className="mobile-nav" title="dLarrivee">
+            <Navigation>
+              <Link to="/portfolio/resume">Resume</Link>
+                <Link to="/portfolio/projects">Projects</Link>
+                <Link to="/portfolio/">Home</Link>
+            </Navigation>
+        </Drawer>
+    )
+   } else {
+     return (
+       <div>
+       </div>
+     )
+   }
+}
+
 function App() {
   return (
     <div style={{height: '100vh', position: 'relative'}}>
@@ -16,13 +35,7 @@ function App() {
                 <Link style={{color: 'black'}} to="/portfolio/">Home</Link>
             </Navigation>
         </Header>
-        <Drawer title="dLarrivee Portfolio">
-            <Navigation>
-              <Link to="/portfolio/resume">Resume</Link>
-                <Link to="/portfolio/projects">Projects</Link>
-                <Link to="/portfolio/">Home</Link>
-            </Navigation>
-        </Drawer>
+        <MobileNav />
         <Content>
             <div className="page-content" />
             <Main/>

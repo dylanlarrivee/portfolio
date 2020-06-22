@@ -143,7 +143,7 @@ class Projects extends Component {
                     <p> Personal Portfolio Website</p>
                     Personal website you are currently viewing.
                     <h5>Technologies used:</h5>
-                    React-MDL
+                    React-MDL, Hosted on Github pages
                   </div>
                 </CardText>
                 <CardActions border>
@@ -265,7 +265,7 @@ class Projects extends Component {
                     <p> Personal Portfolio Website</p>
                     Personal website you are currently viewing.
                     <h5>Technologies used:</h5>
-                    React-MDL
+                    React-MDL, Hosted on Github pages
                   </div>
                 </CardText>
                 <CardActions border>
