@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffef2f15996c03d1defdfa1d6667bed7",
+    "revision": "69d1e021181b92c2ccd83fa79768f3ab",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2d1a8cd7ad438ab803d9",
+    "revision": "c52bf678afea48877ef1",
     "url": "/portfolio/static/css/2.a6bc1c31.chunk.css"
   },
   {
-    "revision": "f3e6a6877aeecad6e008",
+    "revision": "fefb019b63c6f672ce36",
     "url": "/portfolio/static/css/main.ee60b2e5.chunk.css"
   },
   {
-    "revision": "2d1a8cd7ad438ab803d9",
-    "url": "/portfolio/static/js/2.b4715f90.chunk.js"
+    "revision": "c52bf678afea48877ef1",
+    "url": "/portfolio/static/js/2.13eed21a.chunk.js"
   },
   {
     "revision": "8956eb797ec1ca27a54b67665871977c",
-    "url": "/portfolio/static/js/2.b4715f90.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.13eed21a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3e6a6877aeecad6e008",
-    "url": "/portfolio/static/js/main.764273eb.chunk.js"
+    "revision": "fefb019b63c6f672ce36",
+    "url": "/portfolio/static/js/main.871bb211.chunk.js"
   },
   {
     "revision": "3500a4283f62d954a8f6",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Dylan_Larrivee_Resume.0965f4d4.pdf"
   },
   {
+    "revision": "a92aa274bf98b0b8fd1eb19ce1b19587",
+    "url": "/portfolio/static/media/MNV_Pref_Center.a92aa274.png"
+  },
+  {
     "revision": "fb4028e7bfe78ba41030b9ec30e0f9fd",
     "url": "/portfolio/static/media/SWE_Dylan_Larrivee_Cover_Letter.fb4028e7.pdf"
+  },
+  {
+    "revision": "dd8fb5bc7c8c04a7bc986d645217c462",
+    "url": "/portfolio/static/media/curbsideCustomer.dd8fb5bc.png"
+  },
+  {
+    "revision": "87ef82afa8161eaf1afd5a45755f2a1b",
+    "url": "/portfolio/static/media/curbsideStore.87ef82af.png"
   },
   {
     "revision": "8d0f8de41b995c66a1da0f61640f76eb",
