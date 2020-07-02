@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a198790c86752e0a2ddc610f1426d2d",
+    "revision": "5128c13774f53e6347dbb93a98ab808e",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.a6bc1c31.chunk.css"
   },
   {
-    "revision": "31d0c935c665159cc188",
+    "revision": "465729c5f04324de32dd",
     "url": "/portfolio/static/css/main.ee60b2e5.chunk.css"
   },
   {
@@ -20,24 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.13eed21a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31d0c935c665159cc188",
-    "url": "/portfolio/static/js/main.fd09b716.chunk.js"
+    "revision": "465729c5f04324de32dd",
+    "url": "/portfolio/static/js/main.46a93a01.chunk.js"
   },
   {
     "revision": "3500a4283f62d954a8f6",
     "url": "/portfolio/static/js/runtime-main.8d3d3246.js"
   },
   {
-    "revision": "0965f4d43551bc28fc31208af6926c7f",
-    "url": "/portfolio/static/media/Dylan_Larrivee_Resume.0965f4d4.pdf"
+    "revision": "3757c6fcc17cbe592ca41cdac7f9646a",
+    "url": "/portfolio/static/media/Dylan_Larrivee_Cover_Letter.3757c6fc.pdf"
+  },
+  {
+    "revision": "c78e1314e9cfc5d5f417cfc7348b83fc",
+    "url": "/portfolio/static/media/Dylan_Larrivee_Resume.c78e1314.pdf"
   },
   {
     "revision": "a92aa274bf98b0b8fd1eb19ce1b19587",
     "url": "/portfolio/static/media/MNV_Pref_Center.a92aa274.png"
-  },
-  {
-    "revision": "fb4028e7bfe78ba41030b9ec30e0f9fd",
-    "url": "/portfolio/static/media/SWE_Dylan_Larrivee_Cover_Letter.fb4028e7.pdf"
   },
   {
     "revision": "dd8fb5bc7c8c04a7bc986d645217c462",

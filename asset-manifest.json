@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ee60b2e5.chunk.css",
-    "main.js": "/portfolio/static/js/main.fd09b716.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fd09b716.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.46a93a01.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.46a93a01.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8d3d3246.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8d3d3246.js.map",
     "static/css/2.a6bc1c31.chunk.css": "/portfolio/static/css/2.a6bc1c31.chunk.css",
     "static/js/2.13eed21a.chunk.js": "/portfolio/static/js/2.13eed21a.chunk.js",
     "static/js/2.13eed21a.chunk.js.map": "/portfolio/static/js/2.13eed21a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.aab45eddd00e657d1657b87607b75570.js": "/portfolio/precache-manifest.aab45eddd00e657d1657b87607b75570.js",
+    "precache-manifest.0d937ebe6f2c94f389f0a9af037b7219.js": "/portfolio/precache-manifest.0d937ebe6f2c94f389f0a9af037b7219.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.a6bc1c31.chunk.css.map": "/portfolio/static/css/2.a6bc1c31.chunk.css.map",
     "static/css/main.ee60b2e5.chunk.css.map": "/portfolio/static/css/main.ee60b2e5.chunk.css.map",
     "static/js/2.13eed21a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.13eed21a.chunk.js.LICENSE.txt",
-    "static/media/Dylan_Larrivee_Resume.pdf": "/portfolio/static/media/Dylan_Larrivee_Resume.0965f4d4.pdf",
+    "static/media/Dylan_Larrivee_Cover_Letter.pdf": "/portfolio/static/media/Dylan_Larrivee_Cover_Letter.3757c6fc.pdf",
+    "static/media/Dylan_Larrivee_Resume.pdf": "/portfolio/static/media/Dylan_Larrivee_Resume.c78e1314.pdf",
     "static/media/MNV_Pref_Center.png": "/portfolio/static/media/MNV_Pref_Center.a92aa274.png",
-    "static/media/SWE_Dylan_Larrivee_Cover_Letter.pdf": "/portfolio/static/media/SWE_Dylan_Larrivee_Cover_Letter.fb4028e7.pdf",
     "static/media/curbsideCustomer.png": "/portfolio/static/media/curbsideCustomer.dd8fb5bc.png",
     "static/media/curbsideStore.png": "/portfolio/static/media/curbsideStore.87ef82af.png",
     "static/media/damp.png": "/portfolio/static/media/damp.8d0f8de4.png",
@@ -30,6 +30,6 @@
     "static/css/2.a6bc1c31.chunk.css",
     "static/js/2.13eed21a.chunk.js",
     "static/css/main.ee60b2e5.chunk.css",
-    "static/js/main.fd09b716.chunk.js"
+    "static/js/main.46a93a01.chunk.js"
   ]
 }
