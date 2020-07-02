@@ -4,7 +4,7 @@ import logo from "../img/dLarrivee-logo-nobackground.png";
 import Education from "./education";
 import Experience from "./experience";
 import resume from "../img/Dylan_Larrivee_Resume.pdf";
-import coverletter from "../img/SWE_Dylan_Larrivee_Cover_Letter.pdf";
+import coverletter from "../img/Dylan_Larrivee_Cover_Letter.pdf";
 
 class Resume extends Component {
   render() {
@@ -33,7 +33,7 @@ class Resume extends Component {
             
             
 
-            <h4>Software Developer</h4>
+            <h4>Full Stack Developer</h4>
             <hr
               style={{
                 borderTop: "3px solid #282c34",
@@ -43,7 +43,8 @@ class Resume extends Component {
             />
             <p>
               {" "}
-              I am a high-performance software developer and marketing technologist. In my professional career, developing custom solutions for marketer’s needs has allowed me to work with many types of technologies within the marketing technology industry. I am solutions-driven, have a strong passion for technology and am always looking for opportunities to supplement my learning through personal projects and multiple online learning resources that I am continuously engaging in. {" "}
+              A high-performance, self-starting full-stack developer and marketing technologist with two years of experience building out custom solution applications in the marketing technology space. Solutions-driven with a strong passion for technology and always looking for opportunities to grow as a developer.
+             {" "}
             </p>
             <hr
               style={{
@@ -57,7 +58,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>425.890.7785</p>
             <h5>Email</h5>
-            <p>dylanlarrivee@gmail.com</p>
+            <a href="mailto:dylanlarrivee@gmail.com" style={{textDecoration: "none", color: '#282c34'}}><p>dylanlarrivee@gmail.com</p></a>
             <h5>Web</h5>
             <p>https://dylanlarrivee.github.io/portfolio/</p>
             <h1>&nbsp;</h1>
