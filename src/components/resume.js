@@ -43,7 +43,9 @@ class Resume extends Component {
             />
             <p>
               {" "}
-              A high-performance, self-starting full-stack developer and marketing technologist with two years of experience building out custom solution applications in the marketing technology space. Solutions-driven with a strong passion for technology and always looking for opportunities to grow as a developer.
+              I am a high-performance, self-starting full-stack developer and marketing technologist with two years of experience building out custom solution applications in the marketing technology space. I am solutions-driven with a strong passion for technology and always looking for opportunities to grow as a developer.
+              <br /> <br />
+              When I am not working on building out cool custom soutions, I enjoy hiking, backpacking, campaign, pick-up soccer and playing some video games.
              {" "}
             </p>
             <hr

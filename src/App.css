@@ -14,8 +14,8 @@
 /* landing page css*/
 
 .banner-text {
-  background-color: #282c34;
-  opacity: .9;
+  /* background-color: #282c34;
+  opacity: .9; */
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -25,7 +25,7 @@
 .banner-text h1 {
   font-size: 60px;
   font-weight: bold;
-  color: white;
+  color: #282c34;
   text-align: center;
   margin: 0;
 }
@@ -33,7 +33,7 @@
 .banner-text h2 {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: #282c34;
   text-align: center;
   margin: 0;
 }
@@ -41,7 +41,7 @@
 .banner-text h3 {
   font-size: 14px;
   font-weight: bold;
-  color: white;
+  color: #282c34;
   text-align: center;
   margin: 0;
 }
@@ -56,7 +56,7 @@
 }
 
 .social-links i {
- color: white;
+ color: #282c34;
  font-size: 5em;
 }
 
@@ -138,5 +138,5 @@
 
 /* Smartphones ----------- */
 @media only screen and (max-width: 760px) {
-  #mobile-nav { display: none; }
+  .mobile-nav { display: none; }
 }

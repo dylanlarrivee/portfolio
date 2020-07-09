@@ -10,10 +10,11 @@ class Landing extends Component {
           <Cell col={12} >
             <div className="banner-text">
               <h1>Dylan Larrivee</h1>
-              <h2>Software Developer</h2>
+              <h2>Full-Stack Developer</h2>
               <h2>Bellevue, WA</h2>
               <h3>
                 JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
+                <br />
                 AWS | VueJS | React | Git | HTML |  CSS
               </h3>
 
@@ -23,7 +24,7 @@ class Landing extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
                 <h1>&nbsp;</h1>
                 <a
@@ -31,7 +32,7 @@ class Landing extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa fa-github-square" aria-hidden="true" />
+                  <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
               </div>
             </div>

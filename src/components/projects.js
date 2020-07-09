@@ -12,7 +12,7 @@ import {
 } from "react-mdl";
 import programstopper from "../img/ri-program-stopper.png";
 import damp from "../img/damp.png";
-import portfolio from "../img/portfolio-react2.png";
+import portfolio from "../img/portfolio-website.png";
 import pythonlogo from "../img/python-logo.png";
 import dynamicPreferenceCenter from "../img/dynamic-preference-center.png"
 import mnvDynamicPreferenceCenter from "../img/MNV_Pref_Center.png"
@@ -108,6 +108,13 @@ class Projects extends Component {
                   </div>
                 </CardText>
                 <CardActions border>
+                  <a
+                    href="https://github.com/dylanlarrivee/curbside-client-demo-email"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Github code</Button>
+                  </a>
                   <a
                     href="https://rb.gy/auohzb"
                     target="_blank"
@@ -225,6 +232,13 @@ class Projects extends Component {
                   </div>
                 </CardText>
                 <CardActions border>
+                <a
+                    href="https://github.com/dylanlarrivee/curbside-client-demo-email"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Github code</Button>
+                  </a>
                   <a
                     href="https://rb.gy/auohzb"
                     target="_blank"
@@ -389,9 +403,9 @@ class Projects extends Component {
                 <CardText>
                   <div className="project-card-text">
                     <p> Personal Portfolio Website</p>
-                    Personal website you are currently viewing.
+                    Responsive website I built to showcase some of the projects I have built out for fun.
                     <h5>Technologies used:</h5>
-                    React-MDL and hosted on Github pages
+                    JavaScript, React, React-MDL and hosted on Github pages
                   </div>
                 </CardText>
                 <CardActions border>
@@ -518,9 +532,9 @@ class Projects extends Component {
                 <CardText>
                   <div className="project-card-text">
                     <p> Personal Portfolio Website</p>
-                    Personal website you are currently viewing.
+                    Responsive website I built to showcase some of the projects I have built out for fun.
                     <h5>Technologies used:</h5>
-                    React-MDL and hosted on Github pages
+                    JavaScript, React, React-MDL and hosted on Github pages
                   </div>
                 </CardText>
                 <CardActions border>
@@ -650,7 +664,7 @@ class Projects extends Component {
                 <CardText>
                   <div className="project-card-text">
                     <p> Personal Portfolio Website</p>
-                    Personal website you are currently viewing.
+                    Responsive website I built to showcase some of the projects I have built out for fun.
                     <h5>Technologies used:</h5>
                     React-MDL
                   </div>
@@ -774,7 +788,7 @@ class Projects extends Component {
                 <CardText>
                   <div className="project-card-text">
                     <p> Personal Portfolio Website</p>
-                    Personal website you are currently viewing.
+                    Responsive website I built to showcase some of the projects I have built out for fun.
                     <h5>Technologies used:</h5>
                     React-MDL
                   </div>
