@@ -140,3 +140,15 @@
 /* @media only screen and (max-width: 760px) {
   .mobile-nav { display: none; }
 } */
+
+@media (min-width: 600px) {
+  .background-image {
+    background-image: image-url("http://static.cdn.responsys.net/i2/responsysimages/content/omcprtnr003z/seattle-waterline3-mobile.jpg");
+  }
+}
+
+@media (max-width: 600px) {
+  .background-image  {
+    background-image: image-url("http://static.cdn.responsys.net/i2/responsysimages/content/omcprtnr003z/seattle-waterline3.jpg");
+  }
+}

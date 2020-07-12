@@ -13,9 +13,9 @@ class Landing extends Component {
               <h2>Full-Stack Developer</h2>
               <h2>Bellevue, WA</h2>
               <h3>
-                JavaScript | NodeJS | PostgreSQL | Python | Freemarker | SQL |
+                JavaScript | NodeJS | PostgreSQL | Python | Freemarker
                 <br />
-                AWS | VueJS | React | Git | HTML |  CSS
+                | SQL | AWS | VueJS | React | Git | HTML |  CSS
               </h3>
 
               <div className="social-links">
