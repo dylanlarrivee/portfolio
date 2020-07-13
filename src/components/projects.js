@@ -167,6 +167,8 @@ class Projects extends Component {
                   </a>
                   <a
                     href="https://curbside-demo.shawscottapps.com/signin"
+                    target="_blank"
+                    rel="noopener noreferrer"                    
                   >
                     <Button colored>View Live</Button>
                   </a>
@@ -303,6 +305,9 @@ class Projects extends Component {
                   </a>
                   <a
                     href="https://curbside-demo.shawscottapps.com/signin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    
                   >
                     <Button colored>View Live</Button>
                   </a>
