@@ -45,7 +45,9 @@ class Resume extends Component {
               {" "}
               I am a high-performance, self-starting full-stack developer and marketing technologist with two years of experience building out custom solution applications in the marketing technology space. I am solutions-driven with a strong passion for technology and always looking for opportunities to grow as a developer.
               <br /> <br />
-              When I am not working on building out cool custom soutions, I enjoy hiking, backpacking, campaign, pick-up soccer, and playing some video games.
+              If you are a digital marketer who has a problem that could be solved with a custom solution, I would love to connect with you and see what we could build to make your life easier.
+              <br /> <br />
+              When I am not working on building out cool custom solutions, I enjoy hiking, backpacking, campaign, pick-up soccer, and playing some video games.
              {" "}
             </p>
             <hr
@@ -103,7 +105,10 @@ class Resume extends Component {
               {" "}
               I am a high-performance, self-starting full-stack developer and marketing technologist with two years of experience building out custom solution applications in the marketing technology space. I am solutions-driven with a strong passion for technology and always looking for opportunities to grow as a developer.
               <br /> <br />
-              When I am not working on building out cool custom soutions, I enjoy hiking, backpacking, campaign, pick-up soccer, and playing some video games.{" "}
+              If you are a digital marketer who has a problem that could be solved with a custom solution, I would love to connect with you and see what we could build to make your life easier.
+              <br /> <br />
+              When I am not working on building out cool custom solutions, I enjoy hiking, backpacking, campaign, pick-up soccer, and playing some video games.
+              {" "}
             </p>
             <hr
               style={{

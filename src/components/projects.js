@@ -64,7 +64,7 @@ class Projects extends Component {
                     <p>Responsys API Program Stopper </p>
                     Web app that allows users to stop a running program in their
                     Oracle Responsys account without the need to log in to the
-                    platform.
+                    platform. Check it out below with username DemoUser999 and password 1234.
                     <h5>Technologies used:</h5>
                     Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
                   </div>
@@ -76,6 +76,13 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <Button colored>Github Code</Button>
+                  </a>
+                  <a
+                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
@@ -116,7 +123,7 @@ class Projects extends Component {
                     <Button colored>Github code</Button>
                   </a>
                   <a
-                    href="https://rb.gy/auohzb"
+                    href="https://bit.ly/3iYlP0t"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -146,7 +153,7 @@ class Projects extends Component {
                   <div className="project-card-text">
                     <p> Curbside Notification - Store</p>
                     Web app that is used by store clerks to be notified when a customer has arrived at their store for a curbside pickup. Allows store clerks to see notifications in near real time to provide a better experience for their customers.
-                    <h5>Technologies used:</h5>
+ Try it out below with username DemoUser999 and password 1234. Be sure to submit orders with the Curbside Notification - Customer app so you can simulate customers submitting orders and see them in real time.                    <h5>Technologies used:</h5>
                     HTML, CSS, JavaScript, React.js, MongoDb, Node.js, RESTful API and hosted on AWS (Route 53, Elastic Beanstalk, DocumentDB)
                   </div>
                 </CardText>
@@ -157,6 +164,11 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <Button colored>Contact for Demo</Button>
+                  </a>
+                  <a
+                    href="https://curbside-demo.shawscottapps.com/signin"
+                  >
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
@@ -192,18 +204,25 @@ class Projects extends Component {
                     <p>Responsys API Program Stopper </p>
                     Web app that allows users to stop a running program in their
                     Oracle Responsys account without the need to log in to the
-                    platform.
+                    platform. Check it out below with username DemoUser999 and password 1234.
                     <h5>Technologies used:</h5>
                     Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
                   </div>
                 </CardText>
                 <CardActions border>
-                <a
+                  <a
                     href="https://github.com/dylanlarrivee/RIProgramStopper_Pub"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button colored>Github Code</Button>
+                  </a>
+                  <a
+                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
@@ -240,7 +259,7 @@ class Projects extends Component {
                     <Button colored>Github code</Button>
                   </a>
                   <a
-                    href="https://rb.gy/auohzb"
+                    href="https://bit.ly/3iYlP0t"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -269,7 +288,7 @@ class Projects extends Component {
                 <CardText>
                   <div className="project-card-text">
                     <p> Curbside Notification - Store</p>
-                    Web app that is used by store clerks to be notified when a customer has arrived at their store for a curbside pickup. Allows store clerks to see notifications in near real time to provide a better experience for their customers.
+                    Web app that is used by store clerks to be notified when a customer has arrived at their store for a curbside pickup. Allows store clerks to see notifications in near real time to provide a better experience for their customers. Try it out below with username DemoUser999 and password 1234. Be sure to submit orders with the Curbside Notification - Customer app so you can simulate customers submitting orders and see them in real time.
                     <h5>Technologies used:</h5>
                     HTML, CSS, JavaScript, React.js, MongoDb, Node.js, RESTful API and hosted on AWS (Route 53, Elastic Beanstalk, DocumentDB)
                   </div>
@@ -281,6 +300,11 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <Button colored>Contact for Demo</Button>
+                  </a>
+                  <a
+                    href="https://curbside-demo.shawscottapps.com/signin"
+                  >
+                    <Button colored>View Live</Button>
                   </a>
                 </CardActions>
               </Card>
