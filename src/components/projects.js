@@ -18,6 +18,8 @@ import dynamicPreferenceCenter from "../img/dynamic-preference-center.png"
 import mnvDynamicPreferenceCenter from "../img/MNV_Pref_Center.png"
 import curbsideCustomer from "../img/curbsideCustomer.png"
 import curbsideStore from "../img/curbsideStore.png"
+import covidPhaseIdentifier from "../img/covid-phase-identifier.png"
+
 
 
 {/*  hspace: "45"  - padding space for the images if needed */}
@@ -33,7 +35,9 @@ class Projects extends Component {
             </div>
           </Cell>
         </Grid>
-        {/* Row 1 Start*/}
+
+        {/*  Row 1 start  ------------------------------------  */}
+
         {/* Desktop version */}
         <Grid>
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
@@ -54,31 +58,29 @@ class Projects extends Component {
                   }}
                 >
                   <img
-                    src={programstopper}
+                    src={covidPhaseIdentifier}
                     width="100%"
                     height="70%"
                   />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
-                    <p>Responsys API Program Stopper </p>
-                    Web app that allows users to stop a running program in their
-                    Oracle Responsys account without the need to log in to the
-                    platform. Check it out below with username DemoUser999 and password 1234.
+                    <p>COVID Phase Identifier</p>
+                    Full-Stack web app that allows users to input their zip code and finds out what phase of the Washington State COVID Safe Start phased reopening plan without the need to try and navigate the website.
                     <h5>Technologies used:</h5>
-                    Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
+                    React, Node, Express, Google Maps API, Cheerio for web scraping, Mocha for unit testing, and hosted on Heroku.
                   </div>
                 </CardText>
                 <CardActions border>
                   <a
-                    href="https://github.com/dylanlarrivee/RIProgramStopper_Pub"
+                    href="https://github.com/dylanlarrivee/covid-phase-identifier"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button colored>Github Code</Button>
                   </a>
                   <a
-                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    href="https://bit.ly/2PCyY1V"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -203,24 +205,22 @@ class Projects extends Component {
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
-                    <p>Responsys API Program Stopper </p>
-                    Web app that allows users to stop a running program in their
-                    Oracle Responsys account without the need to log in to the
-                    platform. Check it out below with username DemoUser999 and password 1234.
+                    <p>COVID Phase Identifier</p>
+                    Full-Stack web app that allows users to input their zip code and finds out what phase of the Washington State COVID Safe Start phased reopening plan without the need to try and navigate the website.
                     <h5>Technologies used:</h5>
-                    Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
+                    React, Node, Express, Google Maps API, Cheerio for web scraping, Mocha for unit testing, and hosted on Heroku.
                   </div>
                 </CardText>
                 <CardActions border>
                   <a
-                    href="https://github.com/dylanlarrivee/RIProgramStopper_Pub"
+                    href="https://github.com/dylanlarrivee/covid-phase-identifier"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button colored>Github Code</Button>
                   </a>
                   <a
-                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    href="https://bit.ly/2PCyY1V"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -316,8 +316,60 @@ class Projects extends Component {
             </div>
           </Cell>
         </Grid>
-{/*  Row 2 start  */}
+{/*  Row 2 start  ------------------------------------  */}
         <Grid>
+        <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
+            <div style={{ align: "middle" }}>
+              <Card
+                shadow={5}
+                style={{
+                  width: "90%",
+                  height: "100%",
+                  margin: "auto",
+                  align: "middle"
+                }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    color: "#fff"
+                  }}
+                >
+                  <img
+                    src={programstopper}
+                    width="100%"
+                    height="70%"
+                  />
+                </CardTitle>
+                <CardText>
+                  <div className="project-card-text">
+                    <p>Responsys API Program Stopper </p>
+                    Web app that allows users to stop a running program in their
+                    Oracle Responsys account without the need to log in to the
+                    platform. Check it out below with username DemoUser999 and password 1234.
+                    <h5>Technologies used:</h5>
+                    Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
+                  </div>
+                </CardText>
+                <CardActions border>
+                  <a
+                    href="https://github.com/dylanlarrivee/RIProgramStopper_Pub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Github Code</Button>
+                  </a>
+                  <a
+                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>View Live</Button>
+                  </a>
+                </CardActions>
+              </Card>
+            </div>
+          </Cell>
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -415,11 +467,22 @@ class Projects extends Component {
             </div>
           </Cell>       
           
-          <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
+        </Grid>
+
+        
+
+        {/* Mobile version */}
+        <Grid>
+        <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
                 shadow={5}
-                style={{ width: "90%", height: "650", margin: "auto" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  margin: "auto",
+                  align: "middle"
+                }}
               >
                 <CardTitle
                   expand
@@ -427,34 +490,37 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={portfolio} width="100%" height="68%" />
+                  <img src={programstopper} width="100%" height="100%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
-                    <p> Personal Portfolio Website</p>
-                    Responsive website I built to showcase some of the projects I have built out for fun.
+                    <p>Responsys API Program Stopper </p>
+                    Web app that allows users to stop a running program in their
+                    Oracle Responsys account without the need to log in to the
+                    platform. Check it out below with username DemoUser999 and password 1234.
                     <h5>Technologies used:</h5>
-                    JavaScript, React, React-MDL and hosted on Github pages
+                    Node.js, PostgreSQl, JavaScript, Vue.js and Responsys API
                   </div>
                 </CardText>
                 <CardActions border>
-                <a
-                    href="https://github.com/dylanlarrivee/portfolio"
+                  <a
+                    href="https://github.com/dylanlarrivee/RIProgramStopper_Pub"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button colored>Github Code</Button>
                   </a>
+                  <a
+                    href="https://secret-oasis-02597.herokuapp.com/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>View Live</Button>
+                  </a>
                 </CardActions>
               </Card>
             </div>
           </Cell>
-        </Grid>
-
-        
-
-        {/* Mobile version */}
-        <Grid>
           <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -542,13 +608,15 @@ class Projects extends Component {
               </Card>
             </div>
           </Cell>
-         
-
-          <Cell hideDesktop col={4} tablet={12} phone={12}>
+        </Grid>
+        
+{/*  Third row of projects in the grid  */}
+        <Grid>
+        <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
                 shadow={5}
-                style={{ width: "100%", height: "100%", margin: "auto" }}
+                style={{ width: "90%", height: "650", margin: "auto" }}
               >
                 <CardTitle
                   expand
@@ -556,7 +624,7 @@ class Projects extends Component {
                     color: "#fff"
                   }}
                 >
-                  <img src={portfolio} width="100%" height="100%" />
+                  <img src={portfolio} width="100%" height="68%" />
                 </CardTitle>
                 <CardText>
                   <div className="project-card-text">
@@ -578,10 +646,6 @@ class Projects extends Component {
               </Card>
             </div>
           </Cell>
-        </Grid>
-        
-{/*  Third row of projects in the grid  */}
-        <Grid>
           <Cell hidePhone hideTablet col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
@@ -713,8 +777,42 @@ class Projects extends Component {
           </Cell>
         </Grid>
 
-        {/* Mobile version */}
+        {/* Mobile version -------------------------------- */}
         <Grid>
+        <Cell hideDesktop col={4} tablet={12} phone={12}>
+            <div style={{ align: "middle" }}>
+              <Card
+                shadow={5}
+                style={{ width: "100%", height: "100%", margin: "auto" }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    color: "#fff"
+                  }}
+                >
+                  <img src={portfolio} width="100%" height="100%" />
+                </CardTitle>
+                <CardText>
+                  <div className="project-card-text">
+                    <p> Personal Portfolio Website</p>
+                    Responsive website I built to showcase some of the projects I have built out for fun.
+                    <h5>Technologies used:</h5>
+                    JavaScript, React, React-MDL and hosted on Github pages
+                  </div>
+                </CardText>
+                <CardActions border>
+                <a
+                    href="https://github.com/dylanlarrivee/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Github Code</Button>
+                  </a>
+                </CardActions>
+              </Card>
+            </div>
+          </Cell>
           <Cell hideDesktop col={4} tablet={12} phone={12}>
             <div style={{ align: "middle" }}>
               <Card
